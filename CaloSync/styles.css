@@ -5,6 +5,17 @@ body {
 }
 
 
+.content-wrap {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+
+.meals-goals-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER TOP */
 
 
@@ -220,6 +231,7 @@ padding-right: 60px;
 .card-1:hover .card-button{
     transform: translate(-50%, 50%);
     opacity: 1;
+    z-index: 2;
 }
 
 
@@ -267,4 +279,123 @@ padding-right: 60px;
 .card-2:hover .card-button2{
     transform: translate(-50%, 50%);
     opacity: 1;
+    z-index: 2;
+}
+
+
+.workout {
+    width: 643px; 
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    padding:1.8rem;
+    overflow: visible;
+    margin-left:280px;
+    margin-top:5px;
+}
+
+
+.workout-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+
+.workout-title {
+    font-size: 1.6em;
+    font-weight: bolder;
+    position: absolute;
+    top: -17px;
+    left: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.statistics {
+    width: 643px;
+    height: 240px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    padding:1.8em;
+    overflow: visible;
+    margin-left: 280px;
+    margin-top: 8px;
+}
+
+.stat-title {
+    font-size: 1.6em;
+    font-weight: bolder;
+    position: absolute;
+    top: -17px;
+    left: 25px;
+    color: black;
+}
+
+.stat-details {
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.daily-meals {
+    width: 300px;
+    height: 365px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    padding: 1.8em;
+    overflow: visible;
+    margin-left: 25px;
+    margin-top: -89px;
+}
+
+.meal-details {
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.meal-title {
+    font-size: 1.6em;
+    font-weight: bolder;
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    color: black;
+}
+
+.goals {
+    width: 300px;
+    height: 240px;
+    background: white;
+    border-radius: 20px;
+    padding: 1.8em;
+    overflow: visible;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.goals-details {
+    height: 100%;
+    gap:.5em;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.goal-title{
+    font-size: 1.6em;
+    font-weight: bolder;
+    position: absolute;
+    top: -47px;
+    left: -5px;
+    color: black;
+    
 }
