@@ -143,3 +143,128 @@ padding-right: 60px;
 
 
 
+
+/* MAIN CONTENT */
+
+
+.card-1{
+    width: 270px;   /* CHANGE BASING ON SIZE */
+    height: 120px;   /* CHANGE BASING ON SIZE */
+    background: #8e7bc0;  /* CHANGE BASING ON COLOR*/
+    border-radius: 20px;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.3s ease-out;
+    overflow: visible;
+    margin-left: 280px;
+    margin-top: -90px;
+    
+}
+
+
+.card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+
+
+
+.card-button { 
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #8abfe7;    /* CHANGE BASING ON COLOR */
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+
+
+
+.text-body{ 
+    color: white; /* CHANGE COLOR BASED ON THEME */
+    font-size: 42px;
+    font-weight: bolder;
+    padding-top: 12px;
+
+}
+
+
+
+.text-title {  /*  ADJUST BASED ON POSITION AND SIZE*/
+    font-size: 1.3em;
+    font-weight: bolder;
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    color: white;
+}
+
+
+.card-1:hover {
+    border-color: #6ca2cc; /* CHANGE COLOR ON HOVER*/
+}
+
+.card-1:hover .card-button{
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+
+
+.card-2{
+    width: 270px;   /* CHANGE BASING ON SIZE */
+    height: 120px;   /* CHANGE BASING ON SIZE */
+    background: #80A8CC;  /* CHANGE BASING ON COLOR*/
+    border-radius: 20px;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.3s ease-out;
+    overflow: visible;
+    margin-left: 650px;
+    margin-top: -181px;
+    
+}
+
+
+
+.card-button2 { 
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #8e7bc0;    /* CHANGE BASING ON COLOR */
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+
+
+
+.card-2:hover {
+    border-color: #8e7bc0; /* CHANGE COLOR ON HOVER*/
+}
+
+.card-2:hover .card-button2{
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
